@@ -11,11 +11,11 @@ console.log(color);
 
 
 //salvo come variabile la scansione 
-let startText = document.getElementById('app');
+const startText = document.getElementById('app');
 //concatenare input
-let input = `${name} ${surnamename}`;
+const input = `${name} ${surnamename}`;
 //numero casuale
-let max = 10;
+const max = 10;
 let random = Math.floor(Math.random() * max);
 console.log(random);
 
