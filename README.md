@@ -39,6 +39,19 @@ NB: più di 80 selettori per modificare il DOM  https://developer.mozilla.org/en
 typeof: permete di vedere il tipo di dato
 
 NB: Con JS è possibile rimuovere classi indesiderate da framework.
-differenza tra innertext e innerhtml e che in html si puo scrivere del codice Es. <p>ciao</p>  
+differenza tra innertext e innerhtml e che in html si puo scrivere del codice Es. <p>ciao</p>
+
+4) ciclo FOR
+sintassi JS
+for (let i = 0; i < x; i++) {
+    //code
+};
+
+keyword: for
+contatore: let i = 0
+condizione: i < x
+incremento/decremento: i++/i--
+
+NB:un ciclo può essere scritto senza i/d se all suo interno poi usiamo I/d
 
 
