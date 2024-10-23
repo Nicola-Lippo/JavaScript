@@ -62,5 +62,27 @@ Indice numerico: Gli elementi di un array sono posizionati in un ordine preciso 
 NB: sempre meglio avere datiomogenei in un Array
 NB. le stringhe si comportano come gli array(blocco 1, snack 4), per i numeri e necessario mantenerli stringa e poi convertirli
 
-5) Ciclo WHILE
+5) Ciclo WHILE 
+WHILE
+while (condizione) {
+    //istruzioni per terminare il ciclo
+};
 
+keyword: while
+condizione: serve a ripetere il ciclo finchè è vera
+istruzioni per terminare il ciclo: rendere falsa la condizione per terminare un ciclo
+
+NB. Il ciclo while è pratico per eseguire cicli la cui condizione non dipende per forza da un contatore.
+NB. è sempre possibile convertire un ciclo for in uno while
+NB. se la condizione è subito vera non si entra nel ciclo while
+
+DO-WHILE
+do {
+    //codice da eseguire
+    //istruzioni per terminare il ciclo
+} while(condizione)
+
+ Il ciclo do-while viene sempre eseguito almeno una volta anche se la condizione risulta falsa fin dall'inizio.
+ Questo perché la condizione viene verificata solo dopo che il blocco di codice è già stato eseguito.
+
+ NB. debugger = aiuti della console
