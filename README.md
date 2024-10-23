@@ -41,7 +41,7 @@ typeof: permete di vedere il tipo di dato
 NB: Con JS è possibile rimuovere classi indesiderate da framework.
 differenza tra innertext e innerHtml e che in innerHtml si puo scrivere del codice Es. <p>ciao</p>
 
-3) ciclo FOR
+3) Ciclo FOR
 sintassi JS
 for (let i = 0; i < x; i++) {
     //code
@@ -60,5 +60,7 @@ Un array è una struttura dati utilizzata per memorizzare più valori in una sin
 Indice numerico: Gli elementi di un array sono posizionati in un ordine preciso e ogni elemento può essere accessibile tramite un indice numerico, che parte da 0.
 
 NB: sempre meglio avere datiomogenei in un Array
+NB. le stringhe si comportano come gli array(blocco 1, snack 4), per i numeri e necessario mantenerli stringa e poi convertirli
 
+5) Ciclo WHILE
 
