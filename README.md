@@ -86,3 +86,6 @@ do {
  Questo perché la condizione viene verificata solo dopo che il blocco di codice è già stato eseguito.
 
  NB. debugger = aiuti della console
+
+ 6) Intro Funzioni
+ 

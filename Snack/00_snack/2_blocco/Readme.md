@@ -1,0 +1,1 @@
+1) Dati 2 array con lunghezze differenti, aggiungi elementi a quello più corto fino a raggiungere la stessa lunghezza.
