@@ -40,6 +40,19 @@ if (isPalindroma(richiesta2)) {
 } else {
     console.log('non palindroma');
 }
-
-
+console.log('------------------------------------');
+//SWITCH
+const n = ''
+switch (n) {
+    case 'standard':
+    default:
+        console.log('hai selezionato opzione standard');
+        break;
+    case 'pro':
+        console.log('hai scelto opzione pro');
+        break;
+    case 'god':
+        console.log('hai scelto opzione god');
+        break;
+}
 
