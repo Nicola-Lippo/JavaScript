@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    /* Assicura che padding e bordi non influenzino le dimensioni */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9;
+    /* Colore di sfondo */
+    display: flex;
+    /* Imposta il layout come flexbox */
+    justify-content: center;
+    /* Centra orizzontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 100vh;
+    /* Altezza del viewport */
+}
+
+h1 {
+    font-size: 50px;
+}
+
+label {
+    margin-right: 10px;
+    /* Spazio tra l'etichetta e la select */
+}
+
+select {
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    padding: 6px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*ID*/
+#grid {
+    width: 700px;
+    height: 700px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+/*CLASS*/
+.container {
+    text-align: center;
+    /* Centra il testo all'interno del contenitore */
+}
+
+.controls {
+    margin: 20px 0;
+    /* Margine sopra e sotto */
+}
+
+.cell {
+    outline: 1px solid black;
+    background-color: beige;
+    cursor: crosshair;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cell-click {
+    background-color: green;
+    cursor: auto;
+}
+
+.cell-bombs {
+    background-color: rgb(128, 0, 0);
+    cursor: auto;
+}
+
+.cell-10 {
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
+
+.cell-9 {
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.cell-7 {
+    height: calc(100% / 7);
+    width: calc(100% / 7);
+}
