@@ -100,11 +100,20 @@ do {
  keyword: function
  nome funzione: miaFunzione(camelCase)
 
- NB. allert(), prompt() sono funzioni BUILT-IN messe a disposizione dall'ambiente di sviluppo.
+7) Funzioni 1
+NB. allert(), prompt() sono funzioni BUILT-IN messe a disposizione dall'ambiente di sviluppo.
  return = restituisce il valore di una funzione,
  NB: a una funzione è possibbile passare dei parametri o valori nelle ();
 
  Hoisting delle funzioni
  Le dichiarazioni di funzioni (function declarations) in JavaScript sono soggette a hoisting. Questo significa che puoi chiamare una funzione dichiarata prima della sua definizione nel codice, e funzionerà comunque. Il motore di JavaScript sposta l'intera dichiarazione della funzione in cima al contesto di esecuzione.
 
- 
+8) Timing Function
+sintassi JS
+setTimeout(nomeFunzione, tempoDaAspettare);
+
+function nomeFunzione() {
+    //codice
+ };
+NB. tempoDaAspettare si esprime in millisecondi.
+NB. setTimeout fa un azione dopo X secondi, setInterval fa un azione dopo X secondi e poi la ripete sempre ogni X secondi.
