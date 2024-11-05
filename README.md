@@ -100,13 +100,16 @@ do {
  keyword: function
  nome funzione: miaFunzione(camelCase)
 
-7) Funzioni 1
+7) Funzioni 1 e Funzioni freccia
 NB. allert(), prompt() sono funzioni BUILT-IN messe a disposizione dall'ambiente di sviluppo.
  return = restituisce il valore di una funzione,
  NB: a una funzione è possibbile passare dei parametri o valori nelle ();
 
  Hoisting delle funzioni
  Le dichiarazioni di funzioni (function declarations) in JavaScript sono soggette a hoisting. Questo significa che puoi chiamare una funzione dichiarata prima della sua definizione nel codice, e funzionerà comunque. Il motore di JavaScript sposta l'intera dichiarazione della funzione in cima al contesto di esecuzione.
+ ---------------------------------------------------
+ NB. le funzioni freccia con una sola istruzione omettono il return
+ "IMPORTANTE - le funzioni freccia non sono soggette a Hoisting"
 
 8) Timing Function
 sintassi JS
@@ -117,3 +120,11 @@ function nomeFunzione() {
  };
 NB. tempoDaAspettare si esprime in millisecondi.
 NB. setTimeout fa un azione dopo X secondi, setInterval fa un azione dopo X secondi e poi la ripete sempre ogni X secondi.
+
+9) intro Oggetti
+sintassi JS
+const myObjects = {
+    //chiave: valore (insieme formano una proprietà)
+}
+NB: Dot notation è una sintassi che semplifica l'accesso alle proprietà o metodi(.)
+NB: gli oggetti non sono strutture dati iterabili.

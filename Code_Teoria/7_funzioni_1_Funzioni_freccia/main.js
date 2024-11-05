@@ -55,4 +55,24 @@ switch (n) {
         console.log('hai scelto opzione god');
         break;
 }
-
+/************************************/
+//ARROW FUNCTION
+//salviamo la funzione dentro una variabile
+const myFunctio = function () {
+    console.log('ciao da funzione normale');
+};
+//consol vediamo la funzione
+console.log(myFunctio);
+//arrow
+const myFunctioArrow = () => {
+    console.log('ciao da funzione freccia');
+};
+console.log(myFunctioArrow);
+//se si ha solo un istruzione
+const myArrowSingle = () => console.log('ciao da funzione freccia singola opzione');
+myArrowSingle();
+//senza return
+const sum = (num1, num2) => num1 + num2;
+const one = sum(5, 5);
+const two = sum(10, 10);
+console.log(one, two);
